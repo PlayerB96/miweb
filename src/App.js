@@ -1,23 +1,27 @@
 import logo from './logo.svg';
+import unnamed from './unnamed.png';
 import './App.css';
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faYoutube} from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faBell} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Content">
+      <nav className="Content-Nav">
+        <ul>
+          <li><img src={unnamed}/></li>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Portafolio</a></li>
+          <li className="iconYt"><FontAwesomeIcon icon={faYoutube}/></li>
+          <li className="iconIn"><FontAwesomeIcon icon={faInstagram}/></li>
+          <li className="iconGit"><FontAwesomeIcon icon={faGithub}/></li>
+        </ul>
+      </nav>
     </div>
   );
 }
