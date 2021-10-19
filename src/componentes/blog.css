@@ -1,0 +1,37 @@
+.content-blog {
+    text-align: center;
+    margin: 0 auto;
+    height: 100vh;
+    width: 1100px;
+}
+.front-end {
+    margin: 0 auto;
+    width:90%;
+    height:50%;
+}
+
+.des-front-end{
+    border: 2px soled #BC7CD2;
+    border-radius:15px;
+    box-shadow: 2px 2px 6px 6px #bd7cd280;
+}
+
+.des-front-end h1 {
+    font-size: 14px;
+    font-weight: bold;
+    color:#BC7CD2;
+    font-family: 'Poppins';
+    padding-top:8px;
+    padding-left: 18px;
+    text-align: justify;
+}
+.des-front-end h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    font-size: 48px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    -webkit-text-stroke: 1.2px #BC7CD2;
+    color: transparent; 
+}
+
