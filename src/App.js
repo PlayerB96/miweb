@@ -18,7 +18,6 @@ function App() {
         <Route exact path="/">
           <Inicio/>
         </Route>
-
         <Route exact path="/blog">
           <Blog/>
         </Route> 

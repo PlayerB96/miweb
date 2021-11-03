@@ -18,9 +18,9 @@ export default function Navbar() {
               <li><a href="/blog">Blog</a></li>
               <li><a href="#">Contacto</a></li>
               <li><a href="#">Portafolio</a></li>
-              <li className="iconYt"><FontAwesomeIcon icon={faYoutube}/></li>
-              <li className="iconIn"><FontAwesomeIcon icon={faInstagram}/></li>
-              <li className="iconGit"><FontAwesomeIcon icon={faGithub}/></li>
+              <li className="iconYt"><a href="https://www.youtube.com/channel/UCICXxu3dIj1PJQjcNwi3AIw"><FontAwesomeIcon icon={faYoutube}/></a></li>
+              <li className="iconIn"><a href="https://www.instagram.com/player96.raf/"><FontAwesomeIcon icon={faInstagram}/></a></li>
+              <li className="iconGit"><a href="https://github.com/PlayerB96"><FontAwesomeIcon icon={faGithub}/></a></li>
             </ul>
           </nav>
         </div>
