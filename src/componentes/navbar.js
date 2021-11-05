@@ -16,7 +16,7 @@ export default function Navbar() {
               <li><img src={unnamed} alt="logo"/></li>
               <li><a href="/">Inicio</a></li>
               <li><a href="/blog">Blog</a></li>
-              <li><a href="#">Contacto</a></li>
+              <li><a href="/contacto">Contacto</a></li>
               <li><a href="#">Portafolio</a></li>
               <li className="iconYt"><a href="https://www.youtube.com/channel/UCICXxu3dIj1PJQjcNwi3AIw"><FontAwesomeIcon icon={faYoutube}/></a></li>
               <li className="iconIn"><a href="https://www.instagram.com/player96.raf/"><FontAwesomeIcon icon={faInstagram}/></a></li>

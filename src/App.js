@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './componentes/navbar';
 import Inicio from './componentes/inicio';
 import Blog from './componentes/blog';
+import Contacto from './componentes/contacto';
 
 import {
   BrowserRouter as Router,
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route exact path="/blog">
           <Blog/>
+        </Route> 
+        <Route exact path="/contacto">
+          <Contacto/>
         </Route> 
       </Switch>
     </Router>

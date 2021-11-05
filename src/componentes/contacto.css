@@ -1,0 +1,46 @@
+.content-contacto {
+    text-align: center;
+    margin: 0 auto;
+    height: 100vh;
+    width: 1100px;
+}
+
+
+.des-contacto{
+    border: 1.5px solid #BC7CD2;
+    border-radius:15px;
+    box-shadow: 2px 2px 6px 6px #bd7cd280;
+    margin-top: 40px;
+}
+
+.des-contacto h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color:#BC7CD2;
+    font-family: 'Poppins';
+    padding-top:4px;
+    padding-bottom: 0;
+    padding-left: 18px;
+    text-align: justify;
+}
+.des-contacto h2 {
+    margin:auto 0;
+    padding-top: 0;
+    padding-bottom: 14px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    -webkit-text-stroke: 1.8px #BC7CD2;
+    color: transparent; 
+}
+.des-contacto h2 a{
+    text-decoration: none;
+    margin:auto 0;
+    padding-top: 0;
+    padding-bottom: 14px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    -webkit-text-stroke: 1.8px #BC7CD2;
+    color: transparent; 
+}
